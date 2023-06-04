@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const ShortUrl = require('./models/shortUrl')
 const app = express()
 
-mongoose.connect('mongodb+srv://admin-mayank:test123@cluster0.d43biag.mongodb.net/urlshortner', {
+mongoose.connect('mongodb+srv://admin-mayank:test123@cluster0.d43biag.mongodb.net/urlSelector', {
   useNewUrlParser: true, useUnifiedTopology: true,
   //serverSelectionTimeoutMS: 3000, // Adjust the timeout value as needed
   //bufferTimeoutMS: 60000 // Increase the buffer timeout value
